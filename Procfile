@@ -1,1 +1,1 @@
-main: gunicorn jws.wsgi
+jws: gunicorn main.wsgi --log-file- 
